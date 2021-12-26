@@ -15,13 +15,25 @@ html {
     font-size: 100%;
 } /*16px*/
 
-/* Code Addict Added This Syling - See His HTML CSS Nuggetts - Default CSS Starter time mark 16:40 for where he begins to digin to the codeing changes. https://www.youtube.com/watch?v=UDdyGNlQK5w */
+/* Code Addict Added This Syling - See His HTML CSS Nuggetts - Default CSS Starter time mark 16:40 for where he begins to digin to the codeing changes. https://www.youtube.com/watch?v=UDdyGNlQK5w and john-smilga at  https://github.com/john-smilga/default-starter/blob/main/README.md*/
 :root {
---headingFont:var 'Roboto', sans-serif;
---bodyFont:var 'Libre Franklin', sans-serif;
---smallText: 0.7em;
+    /*colors*/
+  --primary-500: #2660A4
+  /* grey */
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
 }
-/* Code Addict Added This Syling */
+
+/* fonts */
+  --headingFont: 'Roboto', sans-serif;
+  --bodyFont: 'Libre Franklin', sans-serif;
+  --smallText: 0.7em;
+/* rest of the vars */
+}
 
 body {
   background: white;
@@ -47,6 +59,7 @@ h5 {
   font-weight: 400;
   line-height: 1.3;
   text-transform: capitalize;
+  color: var(--red-dark);
 }
 
 h1 {
@@ -67,7 +80,7 @@ h5 {
 }
 
 small,
-.text_small 
+.text_small
 {font-size: var(--smallText);
 }
 
