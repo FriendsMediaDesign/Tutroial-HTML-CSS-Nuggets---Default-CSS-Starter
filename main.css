@@ -18,7 +18,16 @@ html {
 /* Code Addict Added This Syling - See His HTML CSS Nuggetts - Default CSS Starter time mark 16:40 for where he begins to digin to the codeing changes. https://www.youtube.com/watch?v=UDdyGNlQK5w and john-smilga at  https://github.com/john-smilga/default-starter/blob/main/README.md*/
 :root {
     /*colors*/
-  --primary-500: #2660A4
+  --primary-100: #d4dfed;
+  --primary-200: #a8bfdb;
+  --primary-300: #7da0c8;
+  --primary-400: #5180b6;
+  --primary-500: #2660A4;
+  --primary-600: #1e4d83;
+  --primary-700: #173a62;
+  --primary-800: #0f2642;
+  --primary-900: #081321;
+
   /* grey */
   --black: #222;
   --white: #fff;
