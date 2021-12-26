@@ -1,85 +1,88 @@
 /* TEMP */
 body {
-    padding: 2rem 5rem;
+	padding: 2rem 5rem;
 }
 /* TEMP */
 
-*,::after,::before {
-    box-sizing: border-box;
+*,
+::after,
+::before {
+	box-sizing: border-box;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400|Roboto:400');
+/* fonts*/
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400|Roboto:400");
 
 html {
-    font-size: 100%;
+	font-size: 100%;
 } /*16px*/
 
 /* Code Addict Added This Syling - See His HTML CSS Nuggetts - Default CSS Starter time mark 16:40 for where he begins to digin to the codeing changes. https://www.youtube.com/watch?v=UDdyGNlQK5w and john-smilga at  https://github.com/john-smilga/default-starter/blob/main/README.md*/
 :root {
-    /*colors*/
-  --primary-100: #d4dfed;
-  --primary-200: #a8bfdb;
-  --primary-300: #7da0c8;
-  --primary-400: #5180b6;
-  --primary-500: #2660A4;
-  --primary-600: #1e4d83;
-  --primary-700: #173a62;
-  --primary-800: #0f2642;
-  --primary-900: #081321;
+	/*colors*/
+	--primary-100: #d4dfed;
+	--primary-200: #a8bfdb;
+	--primary-300: #7da0c8;
+	--primary-400: #5180b6;
+	--primary-500: #2660a4;
+	--primary-600: #1e4d83;
+	--primary-700: #173a62;
+	--primary-800: #0f2642;
+	--primary-900: #081321;
 
-  /* grey */
-  --grey-50: #f9fafb;
-  --grey-100: #f3f4f6;
-  --grey-200: #e5e7eb;
-  --grey-300: #d1d5db;
-  --grey-400: #9ca3af;
-  --grey-500: #6b7280;
-  --grey-600: #4b5563;
-  --grey-700: #374151;
-  --grey-800: #1f2937;
-  --grey-900: #111827;
+	/* grey */
+	--grey-50: #f9fafb;
+	--grey-100: #f3f4f6;
+	--grey-200: #e5e7eb;
+	--grey-300: #d1d5db;
+	--grey-400: #9ca3af;
+	--grey-500: #6b7280;
+	--grey-600: #4b5563;
+	--grey-700: #374151;
+	--grey-800: #1f2937;
+	--grey-900: #111827;
 
-  /* rest of colors */
-  --black: #222;
-  --white: #fff;
-  --red-light: #f8d7da;
-  --red-dark: #842029;
-  --green-light: #d1e7dd;
-  --green-dark: #0f5132;
+	/* rest of colors */
+	--black: #222;
+	--white: #fff;
+	--red-light: #f8d7da;
+	--red-dark: #842029;
+	--green-light: #d1e7dd;
+	--green-dark: #0f5132;
 
-/* fonts */
-  --headingFont: 'Roboto', sans-serif;
-  --bodyFont: 'Libre Franklin', sans-serif;
-  --smallText: 0.7em;
+	/* fonts */
+	--headingFont: "Roboto", sans-serif;
+	--bodyFont: "Libre Franklin", sans-serif;
+	--smallText: 0.7em;
 
-/* rest of the vars */
-  --backgroundColor: var(--grey-50);
-  --textColor: var(--grey-900);
-  --borderRadius: 0.25rem;
-  --letterSpacing: 1px;
-  --transitions: 0.3s ease-in-out all;
-  --max-width: 1120px;
-  --fixed-width: 600px;
+	/* rest of the vars */
+	--backgroundColor: var(--grey-50);
+	--textColor: var(--grey-900);
+	--borderRadius: 0.25rem;
+	--letterSpacing: 1px;
+	--transitions: 0.3s ease-in-out all;
+	--max-width: 1120px;
+	--fixed-width: 600px;
 
-/* box shadows*/
-  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	/* box shadows*/
+	--shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	--shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	--shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+		0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 body {
-  background: var(--backgroundColor);
-  font-family: var(--bodyFont);
-  font-weight: 400;
-  line-height: 1.75;
-  color: var(--textColor);
+	background: var(--backgroundColor);
+	font-family: var(--bodyFont);
+	font-weight: 400;
+	line-height: 1.75;
+	color: var(--textColor);
 }
 
 p {
-    margin-bottom: 1.5rem;
-    max-width: 40em;
+	margin-bottom: 1.5rem;
+	max-width: 40em;
 }
 
 h1,
@@ -87,42 +90,95 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0;
-  margin-bottom: 1.38rem;
-  font-family: var(--headingFont);
-  font-weight: 400;
-  line-height: 1.3;
-  text-transform: capitalize;
-  color: var(--red-dark);
+	margin: 0;
+	margin-bottom: 1.38rem;
+	font-family: var(--headingFont);
+	font-weight: 400;
+	line-height: 1.3;
+	text-transform: capitalize;
+	color: var(--grey-900);
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 3.052rem;
+	margin-top: 0;
+	font-size: 3.052rem;
 }
 
 h2 {
-    font-size: 1.953rem;
+	font-size: 1.953rem;
 }
 
 h4 {
-    font-size: 1.563rem;
+	font-size: 1.563rem;
 }
 
 h5 {
-    font-size: 1.25rem;
+	font-size: 1.25rem;
 }
 
 small,
-.text_small
-{font-size: var(--smallText);
+.text_small {
+	font-size: var(--smallText);
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
+
+.img {
+	width: 100%;
+	display: block;
+	object-fit: cover;
+}
+
+/* buttons */
+.btn {
+	cursor: pointer;
+	color: var(--white);
+	background: var(--primary-500);
+	border: transparent;
+	border-radius: var(--borderRadius);
+	padding: 0.375rem 0.75rem;
+	box-shadow: var(--shadow-1);
+	transition: var(--transitions);
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: var(--primary-700);
+  box-shadow: var(--shadow-3);
+}
+
+.btn-hipster {
+  color: var(--primary-500);
+  background: var(--primary-200);
+}
+
+.btn-hipster:hover {
+  color: var(--primary-200);
+  background: var(--primary-700);
+}
+
+/* alerts */
+.alert {
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-radius: var(--borderRadius);
+}
+
+.alert-danger {
+  color: var(--red-dark);
+  background: var(--red-light)
+}
+.alert-success {
+  color: var(--green-dark);
+  background: var(--green-light)
+}
+
