@@ -146,89 +146,129 @@ ul {
 	padding: 0.375rem 0.75rem;
 	box-shadow: var(--shadow-1);
 	transition: var(--transitions);
-  text-transform: capitalize;
-  display: inline-block;
+	text-transform: capitalize;
+	display: inline-block;
 }
 
 .btn:hover {
-  background: var(--primary-700);
-  box-shadow: var(--shadow-3);
+	background: var(--primary-700);
+	box-shadow: var(--shadow-3);
 }
 
 .btn-hipster {
-  color: var(--primary-500);
-  background: var(--primary-200);
+	color: var(--primary-500);
+	background: var(--primary-200);
 }
 
 .btn-hipster:hover {
-  color: var(--primary-200);
-  background: var(--primary-700);
+	color: var(--primary-200);
+	background: var(--primary-700);
 }
 
 .btn-block {
-  width: 100%;
+	width: 100%;
 }
 
 /* alerts */
 .alert {
-  padding: 0.375rem 0.75rem;
-  margin-bottom: 1rem;
-  border-color: transparent;
-  border-radius: var(--borderRadius);
+	padding: 0.375rem 0.75rem;
+	margin-bottom: 1rem;
+	border-color: transparent;
+	border-radius: var(--borderRadius);
 }
 
 .alert-danger {
-  color: var(--red-dark);
-  background: var(--red-light)
+	color: var(--red-dark);
+	background: var(--red-light);
 }
 .alert-success {
-  color: var(--green-dark);
-  background: var(--green-light)
+	color: var(--green-dark);
+	background: var(--green-light);
 }
 
 /* form */
 .form {
-  width: 90vw;
-  max-width: var(--fixed-width);
-  background: var(--white);
-  border-radius: var(--borderRadius);
-  box-shadow: var(--shadow-2);
-  padding: 2rem 2.5rem;
-  margin: 3rem auto;
+	width: 90vw;
+	max-width: var(--fixed-width);
+	background: var(--white);
+	border-radius: var(--borderRadius);
+	box-shadow: var(--shadow-2);
+	padding: 2rem 2.5rem;
+	margin: 3rem auto;
 }
 
 .form-label {
-  display: block;
-  font-size: var(--smallText);
-  margin-bottom: 0.5rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
+	display: block;
+	font-size: var(--smallText);
+	margin-bottom: 0.5rem;
+	text-transform: capitalize;
+	letter-spacing: var(--letterSpacing);
 }
 
 .form-input,
 .form-textarea {
-  width: 100%;
-  padding: 0.375rem 0.75rem;
-  border-radius: var(--borderRadius);
-  background: var(--backgroundColor);
-  border: 1px solid var(--grey-200);
+	width: 100%;
+	padding: 0.375rem 0.75rem;
+	border-radius: var(--borderRadius);
+	background: var(--backgroundColor);
+	border: 1px solid var(--grey-200);
 }
 
 .form-row {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
 
 .form-textarea {
-  height: 7rem;
+	height: 7rem;
 }
 
 ::placeholder {
-  font-family: inherit;
-  color: var(--grey-400);
+	font-family: inherit;
+	color: var(--grey-400);
 }
 
+/* This Is Just To Showcase Alert Text*/
 .form-alert {
-  color: var(--red-dark);
-  letter-spacing: var(--letterSpacing);
-  text-transform: capitalize;
+	color: var(--red-dark);
+	letter-spacing: var(--letterSpacing);
+	text-transform: capitalize;
 }
+
+/* alert */
+@keyframes spinner {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.loading {
+	width: 6rem;
+	height: 6rem;
+	border: 5px solid var(--grey-400);
+	border-radius: 50%;
+	border-top-color: var(--primary-500);
+  animation: spinner 0.6s linear infinite;
+}
+
+.loading {
+  margin: 0 auto;
+}
+
+/* title */
+.title {
+  text-align: center;
+}
+
+/* title underline styling */
+/*.title h2 { 
+  margin-bottom: 0.25rem; 
+}*/
+
+.title-underline {
+  background: var(--primary-500);
+  width: 7rem;
+  height: 00.25rem;
+  margin: 0 auto;
+  margin-top: -1rem; /*use margin-top if no h2 html to style with css as the above commented out "title underline styling had done" The effect is the same using the -1rem.*/
+}
+
